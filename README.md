@@ -22,7 +22,7 @@ let body = "Dear MyCompany, \nMy order failed to ship! \nSincerely,\nUser
 
 ### to
 
-`email` addresses must be one string separated by semicolons and a space.
+`to` email addresses must be one string separated by semicolons and a space.
 
 ### subject
 
