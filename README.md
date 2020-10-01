@@ -12,10 +12,13 @@ Open the file emailMaker.js with your preferred command. I use:
 `code emailMaker.js`
 
 Change the "To", "Subject", "Bcc", or "Body" fields using the corresponding variables.
-`let to = "customerservice@mycompany.com; shipping@mycompany.com"`
-`let subject = "Failed Delivery"`
-`let bcc = "marketing@mycompany.com"`
-`let body = "Dear MyCompany, \nMy order failed to ship! /nSincerely,\nUser`
+
+```javascript
+let to = "customerservice@mycompany.com; shipping@mycompany.com"
+let subject = "Failed Delivery"
+let bcc = "marketing@mycompany.com"
+let body = "Dear MyCompany, \nMy order failed to ship! /nSincerely,\nUser
+```
 
 ### to
 
@@ -37,4 +40,5 @@ Most special characters probably will not be supported in the body.
 
 Save your changes and run:
 `node emailMaker.js`
-and you will receive an http link as well as a mailto link in your console. Feel free to return one or the other instead in your own code.
+and you will receive an http link as well as a mailto link in your console.
+Feel free to return one or the other instead in your own code.
