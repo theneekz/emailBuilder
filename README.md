@@ -17,7 +17,7 @@ Change the "To", "Subject", "Bcc", or "Body" fields using the corresponding vari
 let to = "customerservice@mycompany.com; shipping@mycompany.com"
 let subject = "Failed Delivery"
 let bcc = "marketing@mycompany.com"
-let body = "Dear MyCompany, \nMy order failed to ship! /nSincerely,\nUser
+let body = "Dear MyCompany, \nMy order failed to ship! \nSincerely,\nUser
 ```
 
 ### to
